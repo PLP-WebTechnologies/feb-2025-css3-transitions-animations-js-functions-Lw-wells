@@ -1,0 +1,47 @@
+body {
+  font-family: sans-serif;
+  transition: background-color 0.5s ease, color 0.5s ease;
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: #121212;
+  color: white;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Animation for image */
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+img.animate {
+  animation: bounce 0.5s ease;
+}
+
+img{
+    height: 100px;
+}
+
+.h1{
+    text-align: center;
+}
