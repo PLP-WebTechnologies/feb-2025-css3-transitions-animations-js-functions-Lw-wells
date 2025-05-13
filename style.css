@@ -24,7 +24,7 @@ button:hover {
   background-color: #0056b3;
 }
 
-/* Animation for image */
+
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
